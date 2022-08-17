@@ -10,7 +10,6 @@ for (i=0;i<sesiones;i++){
     let mes = "";
     if (distancia>90){
         console.log("Esta solicitando un turno con demasiada anticipación. Llegada la fecha solicite turnos nuevamente.");
-        break;
     }
     else if (distancia>60){
         distancia=distancia-60;
